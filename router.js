@@ -15,5 +15,5 @@ module.exports = function(app) {
   app.use(errorMiddleware)
 
   // mount catch all route
-  app.all("*", (req, res) => res.status(200).send("My updated Node.js API"));
+  app.all("*", (req, res) => res.status(200).send("My Node.js API"));
 };
